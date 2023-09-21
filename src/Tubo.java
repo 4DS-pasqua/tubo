@@ -26,4 +26,7 @@ public class Tubo {
         return lunghezza;
     }
 
+    public double superficie() {
+        return ((diametro*3.14)*lunghezza);
+    }
 }
