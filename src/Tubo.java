@@ -21,4 +21,9 @@ public class Tubo {
     public float getDiametro() {
         return diametro;
     }
+
+    public float getLunghezza() {
+        return lunghezza;
+    }
+
 }
