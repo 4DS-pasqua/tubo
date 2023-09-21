@@ -13,4 +13,8 @@ public class Tubo {
             this.diametro = diametro;
         }
     }
+
+    public String toString() {
+        return "\nLunghezza: " + lunghezza + "\nDiametro: " + diametro;
+    }
 }
