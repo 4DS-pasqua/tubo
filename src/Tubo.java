@@ -5,6 +5,8 @@ public class Tubo {
     public Tubo(float diametro, float lunghezza) throws Exception {
         if(diametro < 0) {
             throw new Exception("\nDiametro non valido!");
+        } else if(lunghezza == 0) {
+            throw new Exception("\nLunghezza non valida!");
         } else {
             if(lunghezza < 0) {
                 lunghezza = lunghezza * -1;
@@ -31,6 +33,6 @@ public class Tubo {
     }
 
     public double volume() {
-        return ((3.14*(diametro/2)*(diametro/2)*lunghezza);
+        return ((3.14*(diametro/2)*(diametro/2)*lunghezza));
     }
 }
