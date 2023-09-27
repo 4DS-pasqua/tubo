@@ -17,7 +17,7 @@ public class Tubo {
     }
 
     public String toString() {
-        return "\nLunghezza: " + lunghezza + "\nDiametro: " + diametro;
+        return "\nLunghezza: " + lunghezza + "\nDiametro: " + diametro +"\n";
     }
 
     public float getDiametro() {
