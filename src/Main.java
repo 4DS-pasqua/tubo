@@ -24,7 +24,7 @@ public class Main {
            do {
                System.out.print("\n0. Esci\n1. Visualizza tubo\n2. Visualizza superficie del tubo\n3. Visualizza volume del tubo\nSeleziona: ");
                sel = input.nextInt();
-           } while(sel < 0 && sel > 3);
+           } while(sel > 0 && sel < 3);
            switch (sel) {
                case 1:
                    System.out.print(tubo1);
