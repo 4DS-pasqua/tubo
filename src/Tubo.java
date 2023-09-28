@@ -4,9 +4,9 @@ public class Tubo {
 
     public Tubo(float diametro, float lunghezza) throws Exception {
         if(diametro < 0) {
-            throw new Exception("\nDiametro non valido!");
+            throw new Exception("\nDiametro non valido!\n\n");
         } else if(lunghezza == 0) {
-            throw new Exception("\nLunghezza non valida!");
+            throw new Exception("\nLunghezza non valida!\n\n");
         } else {
             if(lunghezza < 0) {
                 lunghezza = lunghezza * -1;

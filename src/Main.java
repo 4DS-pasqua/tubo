@@ -8,7 +8,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         do {
             try {
-                System.out.print("\nInserire lunghezza tubo: ");
+                System.out.print("Inserire lunghezza tubo: ");
                 lung = input.nextFloat();
                 System.out.print("\nInserire diametro tubo: ");
                 diam = input.nextFloat();
